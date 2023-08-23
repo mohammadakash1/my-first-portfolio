@@ -1,0 +1,60 @@
+.header {
+    background-color: #FFF8F3;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary-colour {
+    color: #ff0095;
+}
+
+.button-primary {
+    border: 0;
+    border-radius: 5px;
+    background: #ff0095;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
