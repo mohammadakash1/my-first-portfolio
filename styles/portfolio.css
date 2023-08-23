@@ -179,12 +179,40 @@ main section {
 }
 
 .resume-description {
-    color:#757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 115px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contract input[type="text"], .contract input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0 ;
+    width: 100%;
+}
+.social-links a{
+    margin-right:  25px;
 }
